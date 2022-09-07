@@ -58,7 +58,7 @@ const io = new Server(server, {
 });
 
 app.get('/', (req, res) => {
-    res.send('Hello its localhost 3000')
+    res.send('Hello its == localhost 3000')
     console.log("first app")
 })
 
