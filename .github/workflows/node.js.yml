@@ -26,7 +26,7 @@ jobs:
         cache: 'npm'
     - run: npm install
     - run: npm run build
-    - run: pm2 kill
+    # - run: pm2 kill
     - run: pm2 restart dist/main.js --name testPipeline
     # - run: sudo pm2 restart testPipeline
     
